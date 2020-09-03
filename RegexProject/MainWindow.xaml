@@ -1,0 +1,21 @@
+﻿<Window x:Class="RegexProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegexProject"
+        mc:Ignorable="d"
+        Title="Information Panel" Height="300" Width="300" Background="Silver">
+        <StackPanel Margin="20">
+            <Label Content="Info" Foreground="SandyBrown" HorizontalAlignment="Center" FontSize="18"></Label>
+            <Separator></Separator>
+            <Label x:Name="NameLabel" Content="Name" Foreground="White"/>
+            <TextBox Name="txtName" Background="Aqua" Foreground="Wheat"/>
+            <Label x:Name="PhoneLabel" Content="Phone" Foreground="White"/>
+            <TextBox Name="txtPhone" Background="Aqua" Foreground="Wheat"/>
+            <Label x:Name="EmailLabel" Content="Email" Foreground="White"/>
+            <TextBox Name="txtEmail" Background="Aqua" Foreground="Wheat"/>
+            <Button x:Name="btnSubmit" Content="Submit" Margin="60 10" Background="Coral" FontSize="17" Click="btnSubmit_Click"/>
+
+        </StackPanel>
+    </Window>
